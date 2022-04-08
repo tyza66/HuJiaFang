@@ -1,0 +1,105 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/shouye/shouye",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/liaowangtai/liaowangtai",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wo/wo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/weilai/weilai",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhuce/zhuce",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chaxun/chaxun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "首页",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom",
+		"scrollIndicator":"none"
+	},
+	"tabBar": {
+			"selectedColor":"#B5E61D",
+			"list": [
+				{
+					"text": "首页",
+					"pagePath": "pages/shouye/shouye",
+					"iconPath":"static/icons/t1.png",
+					"selectedIconPath":"static/icons/t5.png"
+				},
+				{
+					"text": "瞭望台",
+					"pagePath": "pages/liaowangtai/liaowangtai",
+					"iconPath":"static/icons/t2.png",
+					"selectedIconPath":"static/icons/t6.png"
+				},{
+					"text": "买嘉",
+					"pagePath": "pages/weilai/weilai",
+					"iconPath":"static/icons/sp.png",
+					"selectedIconPath":"static/icons/sp1.png"
+				},
+				{
+					"text": "我",
+					"pagePath": "pages/wo/wo",
+					"iconPath":"static/icons/t3.png",
+					"selectedIconPath":"static/icons/t7.png"
+				}
+				
+			],
+			"backgroundColor":"#FDFDFD",
+			"fontSize":"10px",
+			"iconWidth":"25px"
+		}
+}
